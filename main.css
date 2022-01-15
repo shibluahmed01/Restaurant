@@ -1,0 +1,420 @@
+body {
+  padding: 0;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.main-nav div i {
+  color: #F9CD3B;
+}
+
+.main-nav div #book {
+  background: #F9CD3B;
+  padding: 0.5rem;
+  border: 2px solid #F9CD3B;
+  border-radius: 20px;
+}
+
+.main-nav div #book:hover {
+  background: #aa8c28;
+}
+
+.main-nav div li {
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.main-nav div li i {
+  color: #c94e4e;
+  border: 2px solid #1b61ca;
+  padding: 0.7rem;
+  border-radius: 50%;
+  background: #dfd5d5;
+}
+
+.A {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.A div {
+  font-size: 1.5rem;
+}
+
+.A div h1 {
+  font-size: 2.5rem;
+}
+
+.A div h1 i {
+  color: #f8c10a;
+}
+
+.A div h1 p {
+  font-size: 4rem;
+}
+
+.A div .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+.A div .btn .btn-primary {
+  font-size: 20px;
+  margin-right: 1rem;
+  text-decoration: none;
+  padding: 0.7rem;
+  color: #333;
+  background: #F9CD3B;
+  border-radius: 40px;
+}
+
+.A div .btn .btn-primary:hover {
+  background: #cca223;
+}
+
+.A div .btn .search-box {
+  width: 130px;
+  height: 40px;
+  border: 2px solid #f8c10a;
+  position: relative;
+  border-radius: 50px;
+}
+
+.A div .btn .search-box input {
+  border: none;
+  outline: none;
+  padding-top: 0.7rem;
+  padding-left: 2rem;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+}
+
+.A div .btn .search-box label {
+  width: 30px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: .5rem;
+}
+
+.A div .btn .search-box label .fas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 15px;
+}
+
+.A div img {
+  width: 100%;
+}
+
+.B {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.B .img {
+  width: 100vh;
+}
+
+.B .img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.B .all {
+  padding: 2rem;
+}
+
+.B .all h1 {
+  font-size: 2rem;
+}
+
+.B .all p {
+  font-size: 20px;
+}
+
+.B .all .order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.B .all .order button {
+  padding: .7rem;
+  border-radius: 30px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  background: #f8c10a;
+  font-size: 16px;
+  color: #473d3d;
+}
+
+.B .all .order button:hover {
+  background: #aa8c28;
+  color: #fff;
+}
+
+.B .all .order li {
+  padding: 1rem;
+}
+
+.B .all .order li i {
+  margin-right: 1rem;
+  color: #3e8888;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu h1 {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+
+.menu .item .mark {
+  background: #f8c10a;
+}
+
+.menu .item .mark:hover {
+  background: #c9b678;
+}
+
+.menu .item b {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: 2px solid #e0e010;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+.menu .items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  margin-top: 2rem;
+}
+
+.menu .items div i {
+  color: gold;
+}
+
+.menu .items div .mrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu .items div .mrp .mark {
+  background: #f8c10a;
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+
+.menu .items div .mrp .mark:hover {
+  background: #c9b678;
+}
+
+.menu .items div h4 {
+  font-size: 1.5rem;
+}
+
+.menu .items div p {
+  font-size: 1.1rem;
+}
+
+.menu .items div img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.dinner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.dinner .contant {
+  margin-top: 4rem;
+}
+
+.dinner .contant h1 {
+  font-size: 3rem;
+}
+
+.dinner .contant p {
+  font-size: 20px;
+}
+
+.dinner .contant button {
+  padding: 1rem;
+  border-radius: 30px;
+  font-size: 16px;
+  border: 2px solid #F9CD3B;
+  background: #daab13;
+}
+
+.dinner .contant button:hover {
+  color: #fff;
+}
+
+.dinner div {
+  width: 50%;
+}
+
+.dinner div img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.d {
+  margin-top: 4rem;
+}
+
+.d h1 {
+  font-size: 2rem;
+}
+
+.d .div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.d .div div {
+  padding: 1rem;
+  font-size: 17px;
+  background: #c9b678;
+  height: 200px;
+}
+
+.d .div div img {
+  width: 30px;
+  height: 30px;
+  border-radius: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.chef {
+  margin-top: 4rem;
+}
+
+.chef h1 {
+  font-size: 2rem;
+}
+
+.chef .box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.chef .box img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 1.3rem;
+}
+
+.footer .box {
+  list-style: none;
+}
+
+.footer .box .icons #mark {
+  color: #f8c10a;
+}
+
+.footer .box .icons #mark:hover {
+  background: #aa9c6f;
+  border-radius: 40px;
+}
+
+.footer .box .icons i {
+  padding: .5rem;
+  margin-top: .3rem;
+}
+
+.footer .box .fas {
+  font-size: 15px;
+  margin-left: 0.5rem;
+  background: #f8c10a;
+  padding: .3rem;
+  border-radius: 40px;
+}
+
+.footer .box .fas:hover {
+  color: #fff;
+}
+
+.footer .box li a {
+  text-decoration: none;
+  color: #504d4d;
+  font-size: 18px;
+  padding: 0.5rem;
+}
+
+.footer .box li a:hover {
+  color: #daab13;
+}
+/*# sourceMappingURL=main.css.map */
